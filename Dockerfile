@@ -7,7 +7,7 @@ RUN apt-get update \
     && apt-key adv --keyserver apt-mo.trafficmanager.net --recv-keys 417A0893 \
     && apt-get update \
     && apt-get install dotnet-dev-1.0.0-preview2-003121 -y
-RUN curl -SL https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.10/powershell_6.0.0-alpha.10-1ubuntu1.16.04.1_amd64.deb --output powershell.deb \
+RUN curl -SL https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.13/powershell_6.0.0-alpha.13-1ubuntu1.16.04.1_amd64.deb --output powershell.deb \
     && dpkg --install powershell.deb \
     && rm powershell.deb
 
