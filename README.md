@@ -1,3 +1,7 @@
+# Deprecated
+
+Use the [microsoft/powershell](https://hub.docker.com/r/microsoft/powershell/) image.
+
 # Docker PowerShell
 
 A Docker image that runs PowerShell. On Linux.
